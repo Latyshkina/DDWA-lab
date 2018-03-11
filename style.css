@@ -1,0 +1,23 @@
+
+.navigation-button {
+    background-color: mediumseagreen;
+    border: none;
+    color: mediumblue;
+    padding: 40px 32px;
+    margin: 30px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.action-button {
+    background-color: mediumseagreen;
+    border: none;
+    color: mediumblue;
+    padding: 15px 32px;
+    margin: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

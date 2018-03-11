@@ -1,0 +1,94 @@
+{
+  "Planes": [
+    {
+      "numberPlaces": "234",
+      "company": "Белавиа",
+      "type": "Обычный",
+      "numberFlights": "92",
+      "manufacturer": "Китай",
+      "militaryClass": "Боевой",
+      "numberWeapons": "333",
+      "id": 18
+    },
+    {
+      "numberPlaces": "12",
+      "company": "КМЛ",
+      "type": "Обычный",
+      "numberFlights": "22",
+      "manufacturer": "Индия",
+      "country": "Росиия",
+      "year": "20",
+      "id": 19
+    },
+    {
+      "numberPlaces": "22",
+      "company": "Белавиа",
+      "type": "Обычный",
+      "numberFlights": "22",
+      "manufacturer": "Китай",
+      "militaryClass": "Разведчик",
+      "numberWeapons": "22",
+      "id": 23
+    },
+    {
+      "numberPlaces": "223",
+      "company": "fdfgdfg",
+      "type": "dfgdf",
+      "numberFlights": "233",
+      "manufacturer": "sddgsd",
+      "militaryClass": "sdgdfg",
+      "numberWeapons": "222",
+      "id": 24
+    },
+    {
+      "numberPlaces": "11",
+      "company": "dgds",
+      "type": "sdsdg",
+      "numberFlights": "11",
+      "manufacturer": "sdgds",
+      "militaryClass": "sdgdfg",
+      "numberWeapons": "12",
+      "id": 25
+    },
+    {
+      "numberPlaces": "22",
+      "company": "ывпывп",
+      "type": "ывпвы",
+      "numberFlights": "24",
+      "manufacturer": "ыввпып",
+      "militaryClass": "ывп",
+      "numberWeapons": "242",
+      "id": 26
+    },
+    {
+      "numberPlaces": "111",
+      "company": "dgds",
+      "type": "ecrc",
+      "numberFlights": "23",
+      "manufacturer": "sddgsd",
+      "militaryClass": "rcc",
+      "numberWeapons": "222",
+      "id": 27
+    },
+    {
+      "numberPlaces": "90",
+      "company": "sdsd",
+      "type": "dsgds",
+      "numberFlights": "24",
+      "manufacturer": "sdgs",
+      "militaryClass": "dsg",
+      "numberWeapons": "24",
+      "id": 28
+    },
+    {
+      "numberPlaces": "34",
+      "company": "sdg",
+      "type": "sdg",
+      "numberFlights": "233",
+      "manufacturer": "sdgs",
+      "militaryClass": "cxf",
+      "numberWeapons": "23",
+      "id": 29
+    }
+  ]
+}

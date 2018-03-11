@@ -1,0 +1,39 @@
+﻿
+<link rel="stylesheet" type="text/css" href="style.css">
+<form name="person" onsubmit="savePlane()">
+   <div class="form-group; center-block" style="width:20%; margin-top: 0%">
+           <select  id="selectBox" class="form-control btn-info" onchange="changeType();">
+        <option value="1">Военный самолет</option>
+        <option value="2">Пассажирский самолет</option>
+     </select>
+     <div>Количество мест <input id="numberPlaces" name="numberPlaces"  class="form-control"  pattern="^[ 0-9]{1,4}" type="text" 
+        title="Количество мест должно быть  числом" required=""  onclick="changeType"></div>
+    <div>Компания <br/> <input id="company"  name="company"  class="form-control" type="text" pattern="[A-Za-zА-Яа-яЁё]{1,10}"
+        title="Название компании должно содержать до 10 букв" required=""></div>
+    <div>Вид <br/> <input id="type" name="type"  class="form-control" type="text" pattern="[A-Za-zА-Яа-яЁё]{1,20}" 
+        title="Вид самолета должен содержать до 20 букв" required=""> </div>
+    <div>Количество полетов <br/> <input id="numberFlights" name="numberFlights"  class="form-control" type="text" pattern="[ 0-9]{1,7}"
+        title="Количество полетов должно быть числом, не более 7 цифр" required=""></div>
+    <div>Производитель <br/> <input id="manufacturer" name="manufacturer"  class="form-control" type="text" pattern="[A-Za-zА-Яа-яЁё]{1,10}"
+        title="Название производителя должно содержать до 10 букв" required=""></div>
+    <div>Военный класс <br/> <input id="militaryClass" name="militaryClass"  class="form-control" type="text" pattern="[A-Za-zА-Яа-яЁё]{1,10}"
+          title="Военный класс должен содержать до 10 букв" required=""></div>
+    <div>Число патронов <br/> <input id="numberWeapons" name="numberWeapons" class="form-control" type="text" pattern="^[ 0-9]{1,1000}"
+          title="Число патронов должно быть  числом" required=""></div>
+   <div>Страна <br/> <input id="country" name="country" class="form-control" type="text" pattern="[A-Za-zА-Яа-яЁё]{1,20}"
+          title="Страна должна содержать до 10 букв" required=""></div>
+    <div>Число дополнительных мест <br/> <input id="year" name="year"  class="form-control" type="text" pattern="^[ 0-9]{1,2}"
+          title="Неправильный формат введенного мест" required=""></div>
+       <input type="submit" value="Назад" class="action-button" onClick="window.location='main.html'">
+  </div>
+</form>
+<script type="text/javascript" src="Plane.js"></script>
+<script type="text/javascript" src="Military.js"></script>
+<script type="text/javascript" src="Civil.js"></script>
+<script type="text/javascript" src="Update.js"></script>
+<script type="text/javascript" src="Metods.js"></script>
+<script type="text/javascript">
+var selectedValue = document.getElementById("selectBox");
+GetPlane();
+
+</script>
